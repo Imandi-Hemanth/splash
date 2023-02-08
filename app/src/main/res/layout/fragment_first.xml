@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9F6CA"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".First">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#69F0AE">
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="@string/email"
+       android:id="@+id/email"
+       android:inputType="text"
+       android:ems="10"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:id="@+id/password"
+        android:inputType="text"
+        android:ems="10"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skip"
+        android:id="@+id/skip"
+        android:backgroundTint="#64FFDA"
+        android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
